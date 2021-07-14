@@ -1,0 +1,54 @@
+{
+  "author": "D.Y.Zhang (https://github.com/zzz945/)",
+  "bugs": {
+    "url": "https://github.com/zzz945/ckeditor5-file/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "file upload and insert feature for CKEditor 5.",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {
+    "@ckeditor/ckeditor5-core": "^22.0.0",
+    "@ckeditor/ckeditor5-upload": "^22.0.0",
+    "@ckeditor/ckeditor5-ui": "^22.0.0",
+    "@ckeditor/ckeditor5-clipboard": "^22.0.0",
+    "@ckeditor/ckeditor5-widget": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=5.7.1"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/zzz945/ckeditor5-file",
+  "keywords": [
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "ckeditor5-feature",
+    "ckeditor5-plugin"
+  ],
+  "license": "GPL-2.0-or-later",
+  "name": "@zzz945/ckeditor5-file",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzz945/ckeditor5-file.git"
+  },
+  "version": "0.0.3",
+  "warnings": [
+    {
+      "code": "ENOTSUP",
+      "required": {
+        "node": ">=12.0.0",
+        "npm": ">=5.7.1"
+      },
+      "pkgid": "@zzz945/ckeditor5-file@0.0.1"
+    }
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
